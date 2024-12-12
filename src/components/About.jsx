@@ -1,13 +1,13 @@
 
 const About = () => {
   return (
-    <div name='about' className='w-full min-h-screen bg-black text-white py-28 px-8 md:px-16 lg:px-[160px]'>
+    <div name='about' className='w-full flex flex-col items-center justify-center min-h-screen bg-black text-white px-8 md:px-16 lg:px-[160px] '>
       <div className='max-w-[1000px] w-full flex flex-col md:flex-row gap-16'>
         {/* Title and Description Section */}
         <div className='w-full md:w-1/2 flex flex-col justify-center'>
           <h2 className='text-4xl font-bold mb-12'>About Me</h2>
           <p className='text-lg mb-8'>
-            Hi, I'm Rahat. Nice to meet you! I am passionate about building excellent software that enhances the lives of those around me. 
+            Hi, I&apos;m Rahat. Nice to meet you! I am passionate about building excellent software that enhances the lives of those around me. 
             I specialize in creating solutions for clients, ranging from individuals and small businesses to large enterprise corporations.
           </p>
         </div>

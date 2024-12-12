@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full min-h-screen px-8 md:px-16 lg:px-[160px] bg-black py-28"
+      className="w-full flex min-h-screen justify-center items-center px-8 md:px-16 lg:px-[160px] bg-black"
     >
-      <div className="max-w-[1000px] mx-autoflex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center">
         {/* Greeting */}
         <p className="text-yellow-300">Hi, my name is</p>
 
