@@ -1,5 +1,5 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
-
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
@@ -31,9 +31,15 @@ const Home = () => {
 
         {/* Call-to-Action Buttons */}
         <div className="flex space-x-4 mt-8">
-          <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform duration-300">
+        <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform duration-300"
+          >
             Contact With Me
-          </button>
+          </Link>
+ 
           <a
             href="https://drive.google.com/file/d/179h9z8oFPCUDO5JH4ZagvMAHdZexyFF9/view?usp=sharing"
             target="_blank"
