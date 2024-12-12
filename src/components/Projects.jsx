@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       name="work"
-      className="w-full flex justify-center items-center min-h-screen bg-black text-white px-8 md:px-16 lg:px-[160px]"
+      className="w-full flex justify-center items-center min-h-screen bg-black text-white px-8 py-12 md:px-16 lg:px-[160px]"
     >
       <div className="max-w-[1200px]">
         <div className="pb-8">

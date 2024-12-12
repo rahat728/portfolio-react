@@ -4,21 +4,21 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full flex min-h-screen justify-center items-center px-8 md:px-16 lg:px-[160px] bg-black"
+      className="w-full flex min-h-screen justify-center items-center px-8 py-12 md:px-16 lg:px-[160px] bg-black"
     >
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center">
         {/* Greeting */}
         <p className="text-yellow-300">Hi, my name is</p>
 
         {/* Main Heading */}
-        <h1 className="text-7xl font-bold">
+        <h1 className="text-5xl sm:text-7xl md:text-7xl  font-bold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             RAHAT
           </span>
         </h1>
 
         {/* Subheading */}
-        <h2 className="text-7xl font-bold text-gray-300">
+        <h2 className="text-5xl sm:text-7xl md:text-7xl font-bold text-gray-300">
           I&apos;m a Front End Developer.
         </h2>
 
