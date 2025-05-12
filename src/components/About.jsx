@@ -61,7 +61,7 @@ const About = () => {
 
       {/* Statistics Section */}
       <div className='w-full flex flex-col md:flex-row justify-center items-center mt-16'>
-        <div className='max-w-[1000px] w-full grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
+        <div className='max-w-[1000px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
           <div>
             <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
             0.5+
