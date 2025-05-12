@@ -26,25 +26,35 @@ const About = () => {
               <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '80%' }}></div>
             </div>
           </div>
+
           <div className='w-full'>
             <label className='block mb-1'>ReactJS</label>
             <div className='w-full h-2 bg-gray-700 rounded'>
               <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '70%' }}></div>
             </div>
           </div>
+
           <div className='w-full'>
-            <label className='block mb-1'>TypeScript</label>
+            <label className='block mb-1'>NodeJS</label>
             <div className='w-full h-2 bg-gray-700 rounded'>
-              <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '60%' }}></div>
-            </div>
-          </div>
-          <div className='w-full'>
-            <label className='block mb-1'>TailwindCSS</label>
-            <div className='w-full h-2 bg-gray-700 rounded'>
-              <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '80%' }}></div>
+              <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '25%' }}></div>
             </div>
           </div>
           
+          <div className='w-full'>
+            <label className='block mb-1'>ExpressJS</label>
+            <div className='w-full h-2 bg-gray-700 rounded'>
+              <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '25%' }}></div>
+            </div>
+          </div>
+          
+          <div className='w-full'>
+            <label className='block mb-1'>MongoDB</label>
+            <div className='w-full h-2 bg-gray-700 rounded'>
+              <div className='h-full bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition-transform duration-300 rounded' style={{ width: '25%' }}></div>
+            </div>
+          </div>
+
           {/* Add more skill bars here */}
         </div>
       </div>
@@ -54,21 +64,15 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
           <div>
             <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-              3+
+            0.5+
             </h3>
             <p>Years of Experience</p>
           </div>
           <div>
             <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-              50+
+              3+
             </h3>
             <p>Projects Completed</p>
-          </div>
-          <div>
-            <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-              20+
-            </h3>
-            <p>Happy Clients</p>
           </div>
         </div>
       </div>

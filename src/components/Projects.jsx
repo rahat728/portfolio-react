@@ -1,5 +1,7 @@
 import NotesApp from "../assets/projects/notesapp.png";
 import MusicPlayer from "../assets/projects/musicplayer.png";
+import linkShortener from "../assets/projects/link-shortener.png";
+import blog from "../assets/projects/blog.png";
 const Projects = () => {
   return (
     <div
@@ -12,7 +14,74 @@ const Projects = () => {
         </div>
 
         {/* Container for projects */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            {/* Image */}
+            <div
+              className="w-full h-48 bg-cover bg-center rounded-lg transform transition-transform duration-300 hover:scale-105"
+              style={{ backgroundImage: `url(${blog})` }}
+            ></div>
+
+            {/* Project Details */}
+            <div className="mt-4">
+              <span className="text-2xl font-bold">Blog</span>
+              <p className="text-gray-400 mt-2">MERN Stack</p>
+              <div className="pt-8 flex justify-center space-x-4">
+                <a
+                  href="https://github.com/rahat728/blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-full font-bold transition-transform duration-300 hover:scale-110">
+                    GitHub
+                  </button>
+                </a>
+                <a
+                  href="blog-und6.onrender.com/"
+                  target="_blank"
+                >
+                  <button className="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-full font-bold transition-transform duration-300 hover:scale-110">
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
+            {/* Image */}
+            <div
+              className="w-full h-48 bg-cover bg-center rounded-lg transform transition-transform duration-300 hover:scale-105"
+              style={{ backgroundImage: `url(${linkShortener})` }}
+            ></div>
+
+            {/* Project Details */}
+            <div className="mt-4">
+              <span className="text-2xl font-bold">Link Shortener</span>
+              <p className="text-gray-400 mt-2">MERN Stack</p>
+              <div className="pt-8 flex justify-center space-x-4">
+                <a
+                  href="https://github.com/rahat728/link-shortener"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-full font-bold transition-transform duration-300 hover:scale-110">
+                    GitHub
+                  </button>
+                </a>
+                <a
+                  href="https://link-shortener-frontend.onrender.com/"
+                  target="_blank"
+                >
+                  <button className="px-4 py-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-full font-bold transition-transform duration-300 hover:scale-110">
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             {/* Image */}
             <div
