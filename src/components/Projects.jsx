@@ -26,7 +26,7 @@ const Projects = () => {
             {/* Project Details */}
             <div className="mt-4">
               <span className="text-2xl font-bold">Blog</span>
-              <p className="text-gray-400 mt-2">MERN Stack</p>
+              <p className="text-gray-400 mt-2">ReactJS TailwindCSS NodeJS ExpressJS MongoDB</p>
               <div className="pt-8 flex justify-center space-x-4">
                 <a
                   href="https://github.com/rahat728/blog"
@@ -59,7 +59,7 @@ const Projects = () => {
             {/* Project Details */}
             <div className="mt-4">
               <span className="text-2xl font-bold">Link Shortener</span>
-              <p className="text-gray-400 mt-2">MERN Stack</p>
+              <p className="text-gray-400 mt-2">ReactJS TailwindCSS Typescript NodeJS ExpressJS MongoDB</p>
               <div className="pt-8 flex justify-center space-x-4">
                 <a
                   href="https://github.com/rahat728/link-shortener"
